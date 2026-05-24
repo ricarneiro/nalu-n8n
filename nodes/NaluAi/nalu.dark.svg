@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100">
+  <!-- Rounded robot head background -->
+  <rect x="10" y="15" width="80" height="70" rx="25" fill="#4b6584" stroke="#2f3640" stroke-width="4"/>
+  <!-- Glossy dark face screen -->
+  <rect x="20" y="25" width="60" height="50" rx="15" fill="#1e272c"/>
+  <!-- Glowing cyan eyes (happy arc) -->
+  <path d="M 32 45 A 8 8 0 0 1 48 45" fill="none" stroke="#00d2d3" stroke-width="4" stroke-linecap="round"/>
+  <path d="M 52 45 A 8 8 0 0 1 68 45" fill="none" stroke="#00d2d3" stroke-width="4" stroke-linecap="round"/>
+  <!-- Glowing cyan smiling mouth -->
+  <path d="M 40 60 Q 50 68 60 60" fill="none" stroke="#00d2d3" stroke-width="4" stroke-linecap="round"/>
+</svg>

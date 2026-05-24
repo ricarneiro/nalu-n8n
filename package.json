@@ -1,19 +1,19 @@
 {
-	"name": "n8n-nodes-<...>",
+	"name": "n8n-nodes-nalu-ai",
 	"version": "0.1.0",
-	"description": "",
+	"description": "n8n Community Node for NaLU AI - Semantic NLU data validation and extraction for chatbots.",
 	"license": "MIT",
-	"homepage": "",
+	"homepage": "https://naluai.dev",
 	"keywords": [
 		"n8n-community-node-package"
 	],
 	"author": {
-		"name": "",
-		"email": ""
+		"name": "NaLU AI Team",
+		"email": "contato@naluai.dev"
 	},
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/<...>/n8n-nodes-<...>.git"
+		"url": "https://github.com/naluai/n8n-nodes-nalu-ai.git"
 	},
 	"scripts": {
 		"build": "n8n-node build",
@@ -31,12 +31,10 @@
 		"n8nNodesApiVersion": 1,
 		"strict": true,
 		"credentials": [
-			"dist/credentials/GithubIssuesApi.credentials.js",
-			"dist/credentials/GithubIssuesOAuth2Api.credentials.js"
+			"dist/credentials/NaluAiApi.credentials.js"
 		],
 		"nodes": [
-			"dist/nodes/GithubIssues/GithubIssues.node.js",
-			"dist/nodes/Example/Example.node.js"
+			"dist/nodes/NaluAi/NaluAi.node.js"
 		]
 	},
 	"devDependencies": {
