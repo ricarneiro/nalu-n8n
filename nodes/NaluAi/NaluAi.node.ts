@@ -224,7 +224,7 @@ export class NaluAi implements INodeType {
 
 				const options = {
 					method: 'POST' as const,
-					url: `https://api.naluai.dev/v1/extract/${operation}`,
+					url: `https://naluai.dev/v1/extract/${operation}`,
 					body,
 					json: true,
 				};

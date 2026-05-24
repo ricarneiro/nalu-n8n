@@ -38,7 +38,7 @@ export class NaluAiApi implements ICredentialType {
 
 	test: ICredentialTestRequest = {
 		request: {
-			baseURL: 'https://api.naluai.dev',
+			baseURL: 'https://naluai.dev',
 			url: '/v1/extract/name',
 			method: 'POST',
 			body: {
