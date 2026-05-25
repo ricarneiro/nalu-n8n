@@ -165,7 +165,7 @@ export class NaluAi implements INodeType {
 				options: [
 					{
 						name: 'English',
-						value: 'en',
+						value: 'en-US',
 					},
 					{
 						name: 'Portuguese (Brazil)',
@@ -173,7 +173,7 @@ export class NaluAi implements INodeType {
 					},
 					{
 						name: 'Spanish',
-						value: 'es',
+						value: 'es-ES',
 					},
 				],
 				default: 'pt-BR',
