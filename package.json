@@ -1,6 +1,6 @@
 {
 	"name": "n8n-nodes-nalu-ai",
-	"version": "0.2.1",
+	"version": "0.2.2",
 	"description": "n8n Community Node for NaLU AI - Semantic NLU data validation and extraction for chatbots.",
 	"license": "MIT",
 	"homepage": "https://naluai.dev",
