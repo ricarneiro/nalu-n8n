@@ -60,6 +60,12 @@ export class NaluAi implements INodeType {
 						action: 'Extract and validate CNPJ tax ID with mod 11.',
 					},
 					{
+						name: 'Validate Company Name (Validate_company_name)',
+						value: 'company-name',
+						description: 'Extract company name. Detects legal suffixes (LLC, Ltd, S.A., etc.).',
+						action: 'Extract company name and detect legal suffixes',
+					},
+					{
 						name: 'Validate CPF (Validate_cpf)',
 						value: 'cpf',
 						description: 'Extract and validate CPF tax ID with mod 11',
@@ -70,6 +76,12 @@ export class NaluAi implements INodeType {
 						value: 'email',
 						description: 'Extract email and correct typos (e.g. gmail to gmail.com)',
 						action: 'Extract email and correct typos e g gmail to gmail com',
+					},
+					{
+						name: 'Validate Full Name (Validate_full_name)',
+						value: 'full-name',
+						description: 'Extract full name with surname. Requires at least two words.',
+						action: 'Extract full name with surname requires at least two words',
 					},
 					{
 						name: 'Validate Handoff (Validate_handoff)',
@@ -86,8 +98,8 @@ export class NaluAi implements INodeType {
 					{
 						name: 'Validate Name (Validate_name)',
 						value: 'name',
-						description: 'Extract full names while ignoring greetings and titles',
-						action: 'Extract full names while ignoring greetings and titles',
+						description: 'Extract first name or nickname. Accepts first name without surname.',
+						action: 'Extract first name or nickname accepts first name without surname',
 					},
 					{
 						name: 'Validate Phone (Validate_phone)',
